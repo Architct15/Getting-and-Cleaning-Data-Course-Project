@@ -34,4 +34,4 @@ The run_analysis.R performs the 5 steps required for the project.
 The ouput, a tidy data set, is named "activity_data_mean.txt" which contains a tidy data set with mean values of 66 selected features grouped by each subject and each activity.
 
 ##About the Code Book
-The CodeBook.md file contains description of the data elements and explains in detail the variables used and the resulting dataset.
+The CodeBook.md file contains description of the tidy data set including description of variables and the source dataset.
