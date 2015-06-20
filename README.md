@@ -2,7 +2,7 @@
 
 ##Introduction
 
-This repository contains the course project files for the Coursera course "Getting and Cleaning data". The objective of the project is to obtain, cleanse and format the motion sensor data (e.g. rotation, accleration) from 30 subjects collected from Samsung Galaxy S2 and compute their average for 6 different activities(e.g. sitting, walking, etc).
+This repository contains the course project files for the Coursera course "Getting and Cleaning data". The objective of the project is to obtain, cleanse and format the motion sensor data (e.g. rotation, accleration) from 30 test subjects collected using Samsung Galaxy S2 and compute their average for 6 different activities(e.g. sitting, walking, etc).
 
 
 ##About the raw data
