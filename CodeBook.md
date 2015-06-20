@@ -1,8 +1,10 @@
 #Code Book for the Tidy Data Set "activity_data_mean.txt"
 
-The tidy data set is contained in the file "activity_data_mean.txt"
+The tidy data set is contained in the file "activity_data_mean.txt". It contains the average values for 66 variables grouped by subject and activity.
 
 ##Variables in the tidy data set 
+
+There are 68 columns in the tidy data set. The first two columns, Subject and Activity, are used to factor the mean values of the rest of the 66 variables.
 
 1. Subject - An integer assigned to the test subject. There are 30 subjects participating in the test.
 2. Activity - A string describing the activity (e.g. Sitting, Walking)
