@@ -1,7 +1,7 @@
 # Code Book for Variables and Summaries 
 ## Overview of summaries computed
 
-The tidy data set is contained in the file "activity_data_mean.txt". It has a header row with descriptive names. Each row contains a summary which are the average values for 66 variables. The 66 variables are selected from the original 560 feature variables and they represent the mean and standard deviation values of the various measurements. It is grouped by 30 subjects and for each subject by 6 activities into a total of 180 rows.
+The tidy data set is contained in the file "activity_data_mean.txt". It has a header row with descriptive names. Each row contains a summary which are the average values for 66 variables. The 66 variables are selected from the original 560 feature variables and they represent the mean and standard deviation values of the various measurements. It is grouped by 30 subjects and for each subject by 6 activities into a total of 180 rows. The source data set contains 10299 rows.
 
 ##Variables in the tidy data set 
 
