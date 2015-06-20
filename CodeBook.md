@@ -1,4 +1,4 @@
-#Code Book for Getting and Cleaning Data: Course Project
+#Code Book for the Tidy Data Set "activity_data_mean.txt"
 
 The tidy data set is contained in the file "activity_data_mean.txt"
 
