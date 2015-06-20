@@ -1,5 +1,7 @@
 #Code Book for Getting and Cleaning Data: Course Project
 
+The tidy data set is contained in the file "activity_data_mean.txt"
+
 ##Variables in the tidy data set 
 
 1. Subject - An integer assigned to the test subject. There are 30 subjects participating in the test.
