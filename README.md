@@ -11,13 +11,13 @@ The sensor data is contained in a zip file which will unzip to a folder "UCI HAR
 
 The root folder contains the following files:
 
-*activity_labels.txt: activity label 
-*features.txt: measured feature names 
+* activity_labels.txt: activity label 
+* features.txt: measured feature names 
 
 There are two subfolders, "train" and "test", each containing 3 files: 
-*X_train/test: sensor readings
-*y_train/test: activity code
-*subject_train/test: subject code
+* X_train/test: sensor readings
+* y_train/test: activity code
+* subject_train/test: subject code
 
 About the script and output
 ---------------------------
