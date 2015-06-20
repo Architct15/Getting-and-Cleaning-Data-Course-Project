@@ -2,77 +2,78 @@
 
 ##Variables in the tidy data set 
 
-"Subject" - An integer assigned to the test subject. There are 30 subjects participating in the test.
-"Activity" - A string describing the activity (e.g. Sitting, Walking)
+1. Subject - An integer assigned to the test subject. There are 30 subjects participating in the test.
+2. Activity - A string describing the activity (e.g. Sitting, Walking)
 
 The following 66 variables have been translated such that they are self-descriptive. They are selected from the original 560 feature variables and they contain the mean and standard deviation values of the various measurements.
 
-"TimeDomain.BodyAcceleration.Mean.X"
-"TimeDomain.BodyAcceleration.Mean.Y"
-"TimeDomain.BodyAcceleration.Mean.Z"
-"TimeDomain.BodyAcceleration.StandardDeviation.X"
-"TimeDomain.BodyAcceleration.StandardDeviation.Y"
-"TimeDomain.BodyAcceleration.StandardDeviation.Z"
-"TimeDomain.GravityAcceleration.Mean.X"
-"TimeDomain.GravityAcceleration.Mean.Y"
-"TimeDomain.GravityAcceleration.Mean.Z"
-"TimeDomain.GravityAcceleration.StandardDeviation.X"
-"TimeDomain.GravityAcceleration.StandardDeviation.Y"
-"TimeDomain.GravityAcceleration.StandardDeviation.Z"
-"TimeDomain.BodyAccelerationJerk.Mean.X"
-"TimeDomain.BodyAccelerationJerk.Mean.Y"
-"TimeDomain.BodyAccelerationJerk.Mean.Z"
-"TimeDomain.BodyAccelerationJerk.StandardDeviation.X"
-"TimeDomain.BodyAccelerationJerk.StandardDeviation.Y"
-"TimeDomain.BodyAccelerationJerk.StandardDeviation.Z"
-"TimeDomain.BodyAngularSpeed.Mean.X"
-"TimeDomain.BodyAngularSpeed.Mean.Y"
-"TimeDomain.BodyAngularSpeed.Mean.Z"
-"TimeDomain.BodyAngularSpeed.StandardDeviation.X"
-"TimeDomain.BodyAngularSpeed.StandardDeviation.Y"
-"TimeDomain.BodyAngularSpeed.StandardDeviation.Z"
-"TimeDomain.BodyAngularAcceleration.Mean.X"
-"TimeDomain.BodyAngularAcceleration.Mean.Y"
-"TimeDomain.BodyAngularAcceleration.Mean.Z"
-"TimeDomain.BodyAngularAcceleration.StandardDeviation.X"
-"TimeDomain.BodyAngularAcceleration.StandardDeviation.Y"
-"TimeDomain.BodyAngularAcceleration.StandardDeviation.Z"
-"TimeDomain.BodyAccelerationMagnitude.Mean"
-"TimeDomain.BodyAccelerationMagnitude.StandardDeviation"
-"TimeDomain.GravityAccelerationMagnitude.Mean"
-"TimeDomain.GravityAccelerationMagnitude.StandardDeviation"
-"TimeDomain.BodyAccelerationJerkMagnitude.Mean"
-"TimeDomain.BodyAccelerationJerkMagnitude.StandardDeviation"
-"TimeDomain.BodyAngularSpeedMagnitude.Mean"
-"TimeDomain.BodyAngularSpeedMagnitude.StandardDeviation"
-"TimeDomain.BodyAngularAccelerationMagnitude.Mean"
-"TimeDomain.BodyAngularAccelerationMagnitude.StandardDeviation"
-"FrequencyDomain.BodyAcceleration.Mean.X"
-"FrequencyDomain.BodyAcceleration.Mean.Y"
-"FrequencyDomain.BodyAcceleration.Mean.Z"
-"FrequencyDomain.BodyAcceleration.StandardDeviation.X"
-"FrequencyDomain.BodyAcceleration.StandardDeviation.Y"
-"FrequencyDomain.BodyAcceleration.StandardDeviation.Z"
-"FrequencyDomain.BodyAccelerationJerk.Mean.X"
-"FrequencyDomain.BodyAccelerationJerk.Mean.Y"
-"FrequencyDomain.BodyAccelerationJerk.Mean.Z"
-"FrequencyDomain.BodyAccelerationJerk.StandardDeviation.X"
-"FrequencyDomain.BodyAccelerationJerk.StandardDeviation.Y"
-"FrequencyDomain.BodyAccelerationJerk.StandardDeviation.Z"
-"FrequencyDomain.BodyAngularSpeed.Mean.X"
-"FrequencyDomain.BodyAngularSpeed.Mean.Y"
-"FrequencyDomain.BodyAngularSpeed.Mean.Z"
-"FrequencyDomain.BodyAngularSpeed.StandardDeviation.X"
-"FrequencyDomain.BodyAngularSpeed.StandardDeviation.Y"
-"FrequencyDomain.BodyAngularSpeed.StandardDeviation.Z"
-"FrequencyDomain.BodyAccelerationMagnitude.Mean"
-"FrequencyDomain.BodyAccelerationMagnitude.StandardDeviation"
-"FrequencyDomain.BodyAccelerationJerkMagnitude.Mean"
-"FrequencyDomain.BodyAccelerationJerkMagnitude.StandardDeviation"
-"FrequencyDomain.BodyAngularSpeedMagnitude.Mean"
-"FrequencyDomain.BodyAngularSpeedMagnitude.StandardDeviation"
-"FrequencyDomain.BodyAngularAccelerationMagnitude.Mean"
-"FrequencyDomain.BodyAngularAccelerationMagnitude.StandardDeviation"
+3. TimeDomain.BodyAcceleration.Mean.X
+4. TimeDomain.BodyAcceleration.Mean.Y
+5. TimeDomain.BodyAcceleration.Mean.Z
+6. TimeDomain.BodyAcceleration.StandardDeviation.X
+7. TimeDomain.BodyAcceleration.StandardDeviation.Y
+8. TimeDomain.BodyAcceleration.StandardDeviation.Z
+9. TimeDomain.GravityAcceleration.Mean.X
+10. TimeDomain.GravityAcceleration.Mean.Y
+11. TimeDomain.GravityAcceleration.Mean.Z
+12. TimeDomain.GravityAcceleration.StandardDeviation.X
+13. TimeDomain.GravityAcceleration.StandardDeviation.Y
+14. TimeDomain.GravityAcceleration.StandardDeviation.Z
+15. TimeDomain.BodyAccelerationJerk.Mean.X
+16. TimeDomain.BodyAccelerationJerk.Mean.Y
+17. TimeDomain.BodyAccelerationJerk.Mean.Z
+18. TimeDomain.BodyAccelerationJerk.StandardDeviation.X
+19. TimeDomain.BodyAccelerationJerk.StandardDeviation.Y
+20. TimeDomain.BodyAccelerationJerk.StandardDeviation.Z
+21. TimeDomain.BodyAngularSpeed.Mean.X
+22. TimeDomain.BodyAngularSpeed.Mean.Y
+23. TimeDomain.BodyAngularSpeed.Mean.Z
+24. TimeDomain.BodyAngularSpeed.StandardDeviation.X
+25. TimeDomain.BodyAngularSpeed.StandardDeviation.Y
+26. TimeDomain.BodyAngularSpeed.StandardDeviation.Z
+27. TimeDomain.BodyAngularAcceleration.Mean.X
+28. TimeDomain.BodyAngularAcceleration.Mean.Y
+29. TimeDomain.BodyAngularAcceleration.Mean.Z
+30. TimeDomain.BodyAngularAcceleration.StandardDeviation.X
+31. TimeDomain.BodyAngularAcceleration.StandardDeviation.Y
+32. TimeDomain.BodyAngularAcceleration.StandardDeviation.Z
+33. TimeDomain.BodyAccelerationMagnitude.Mean
+34. TimeDomain.BodyAccelerationMagnitude.StandardDeviation
+35. TimeDomain.GravityAccelerationMagnitude.Mean
+36. TimeDomain.GravityAccelerationMagnitude.StandardDeviation
+37. TimeDomain.BodyAccelerationJerkMagnitude.Mean
+38. TimeDomain.BodyAccelerationJerkMagnitude.StandardDeviation
+39. TimeDomain.BodyAngularSpeedMagnitude.Mean
+40. TimeDomain.BodyAngularSpeedMagnitude.StandardDeviation
+41. TimeDomain.BodyAngularAccelerationMagnitude.Mean
+42. TimeDomain.BodyAngularAccelerationMagnitude.StandardDeviation
+43. FrequencyDomain.BodyAcceleration.Mean.X
+44. FrequencyDomain.BodyAcceleration.Mean.Y
+45. FrequencyDomain.BodyAcceleration.Mean.Z
+46. FrequencyDomain.BodyAcceleration.StandardDeviation.X
+47. FrequencyDomain.BodyAcceleration.StandardDeviation.Y
+48. FrequencyDomain.BodyAcceleration.StandardDeviation.Z
+49. FrequencyDomain.BodyAccelerationJerk.Mean.X
+50. FrequencyDomain.BodyAccelerationJerk.Mean.Y
+51. FrequencyDomain.BodyAccelerationJerk.Mean.Z
+52. FrequencyDomain.BodyAccelerationJerk.StandardDeviation.X
+53. FrequencyDomain.BodyAccelerationJerk.StandardDeviation.Y
+54. FrequencyDomain.BodyAccelerationJerk.StandardDeviation.Z
+55. FrequencyDomain.BodyAngularSpeed.Mean.X
+56. FrequencyDomain.BodyAngularSpeed.Mean.Y
+57. FrequencyDomain.BodyAngularSpeed.Mean.Z
+58. FrequencyDomain.BodyAngularSpeed.StandardDeviation.X
+59. FrequencyDomain.BodyAngularSpeed.StandardDeviation.Y
+60. FrequencyDomain.BodyAngularSpeed.StandardDeviation.Z
+61. FrequencyDomain.BodyAccelerationMagnitude.Mean
+62. FrequencyDomain.BodyAccelerationMagnitude.StandardDeviation
+63. FrequencyDomain.BodyAccelerationJerkMagnitude.Mean
+64. FrequencyDomain.BodyAccelerationJerkMagnitude.StandardDeviation
+65. FrequencyDomain.BodyAngularSpeedMagnitude.Mean
+66. FrequencyDomain.BodyAngularSpeedMagnitude.StandardDeviation
+67. FrequencyDomain.BodyAngularAccelerationMagnitude.Mean
+68. FrequencyDomain.BodyAngularAccelerationMagnitude.StandardDeviation
+
 
 
 ##Data source
